@@ -1,6 +1,6 @@
 package net.franklinps.chivallati.TextLab05;
 
-class Rational
+public class Rational
 {
 
     private static int num , den , gcf;
