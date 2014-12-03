@@ -1,4 +1,4 @@
-// TextLab02st.java
+package net.franklinps.chivallati.TextLab02;// TextLab02st.java
 // Student starting version of the TextLab02 assignment.
 // Resave this program as TextLab02v80 for the 80 point version.
 // Resave this program as TextLab02v100 for the 100 point version.

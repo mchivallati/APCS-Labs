@@ -1,4 +1,4 @@
-// TextLab01v80.java
+package net.franklinps.chivallati.TextLab01;// TextLab01v80.java
 //The 80-point version of Text LAb 01 is an exercise in precisely copying a
 //provided program, follwed by compiling the source code into bytecode
 // and executing the bytecode file.

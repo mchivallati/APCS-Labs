@@ -1,4 +1,4 @@
-//Matthew Chivallati
+package net.franklinps.chivallati.TextLab03;//Matthew Chivallati
 // TextLab03st.java
 // The Mortage Payment Program
 // This the student, starting version of the TextLab03 assignment.
@@ -13,9 +13,9 @@ public class TextLab03v80Chivallati
 		double principal      = 259000;                   // Principal Rate
 		double annualRate     = .0575;                    // Annual Intrest
 		double numYears       = 30;                       // Number of Years
-      double monthlyRate    = (double) annualRate / 12; // Monthly Intrest
-      double numMonths      = numYears * 12;            // Number of Months in the Payment Period
-      double monthlyPayment = (double)                  // Equation for the Monthly Payment
+        double monthlyRate = annualRate / 12;            // Monthly Intrest
+        double numMonths = numYears * 12;              // Number of Months in the Payment Period
+        double monthlyPayment =                             // Equation for the Monthly Payment
                                  (
                                     ( 
                                   
