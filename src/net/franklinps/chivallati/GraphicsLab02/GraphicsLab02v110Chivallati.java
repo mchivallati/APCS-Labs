@@ -1,10 +1,8 @@
-// GraphicsLab02Chivallati.java
+package net.franklinps.chivallati.GraphicsLab02;// GraphicsLab02Chivallati.java
 // This is the student, starting version of the GraphicsLab02 assignment.
-
 
 import java.awt.*;
 import java.applet.*;
-
 
 public class GraphicsLab02v110Chivallati extends Applet
 {
@@ -14,8 +12,8 @@ public class GraphicsLab02v110Chivallati extends Applet
 
    public static int R() // function for r in rgb
    {
-   
-      double Red = (double) Math.random() * 256;
+
+       double Red = Math.random () * 256;
          
       int R = (int) Red;
       
@@ -24,8 +22,8 @@ public class GraphicsLab02v110Chivallati extends Applet
    }
    public static int G() // function for g in rgb
    {
-   
-      double Green = (double) Math.random() * 256;
+
+       double Green = Math.random () * 256;
       
       int G = (int) Green;
       
@@ -34,8 +32,8 @@ public class GraphicsLab02v110Chivallati extends Applet
    }
    public static int B() // function for b in rgb
    {
-   
-      double Blue = (double) Math.random() * 256;
+
+       double Blue = Math.random () * 256;
    
       int B = (int) Blue;
    

@@ -1,10 +1,12 @@
-// GraphicsLab03st.java
+package net.franklinps.chivallati.GraphicsLab03;// GraphicsLab03st.java
 // Student Version
+
 
 import java.awt.*;
 import java.applet.*;
 import java.util.*;
-																
+
+
 public class GraphicsLab03v100Chivallati extends Applet
 {
 

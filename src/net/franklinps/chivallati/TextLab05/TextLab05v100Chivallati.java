@@ -2,6 +2,26 @@ package net.franklinps.chivallati.TextLab05;
 
 import java.util.Scanner;
 
+/*
+
+⊂_ヽ I'M
+　 ＼＼ ＿
+　　 ＼(　•_•) F
+　　　 <　⌒ヽ A
+　　　/ 　 へ＼ B
+　　 /　　/　＼＼ U
+　　 ﾚ　ノ　　 ヽ_つ L
+　　/　/ O
+　 /　/| U
+　(　(ヽ S
+　|　|、＼
+　| 丿 ＼ ⌒)
+　| |　　) /
+`ノ )　　Lﾉ
+(_／﻿
+
+ */
+
 
 public class TextLab05v100Chivallati
 {

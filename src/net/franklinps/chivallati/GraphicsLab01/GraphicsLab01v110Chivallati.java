@@ -1,12 +1,10 @@
-// Matthew Chivallati
+package net.franklinps.chivallati.GraphicsLab01;// Matthew Chivallati
 // GraphicsLab01st.java
 // The AWT Graphics Program
 // This is the student, starting version of Graphics Lab 01.
 
-
 import java.awt.*;
 import java.applet.*;
-
 
 public class GraphicsLab01v110Chivallati extends Applet
 {
@@ -15,10 +13,10 @@ public class GraphicsLab01v110Chivallati extends Applet
 	{
    
       // Color Variable
-         
-         double Red = (double) Math.random() * 256;
-         double Green = (double) Math.random() * 256;
-         double Blue = (double) Math.random() * 256;
+
+       double Red = Math.random () * 256;
+       double Green = Math.random () * 256;
+       double Blue = Math.random () * 256;
          
          int R = (int) Red;
          int G = (int) Green;
@@ -40,9 +38,9 @@ public class GraphicsLab01v110Chivallati extends Applet
          
          
          // Color Variable
-         double Red2 = (double) Math.random() * 256;
-         double Green2 = (double) Math.random() * 256;
-         double Blue2 = (double) Math.random() * 256;
+       double Red2 = Math.random () * 256;
+       double Green2 = Math.random () * 256;
+       double Blue2 = Math.random () * 256;
          
          int R2 = (int) Red2;
          int G2 = (int) Green2;
@@ -63,9 +61,9 @@ public class GraphicsLab01v110Chivallati extends Applet
       
       
          // Color Variable
-         double Red3 = (double) Math.random() * 256;
-         double Green3 = (double) Math.random() * 256;
-         double Blue3 = (double) Math.random() * 256;
+       double Red3 = Math.random () * 256;
+       double Green3 = Math.random () * 256;
+       double Blue3 = Math.random () * 256;
          
          int R3 = (int) Red3;
          int G3 = (int) Green3;
@@ -86,9 +84,9 @@ public class GraphicsLab01v110Chivallati extends Applet
             
             
          // Color Variable
-         double Red4 = (double) Math.random() * 256;
-         double Green4 = (double) Math.random() * 256;
-         double Blue4 = (double) Math.random() * 256;
+       double Red4 = Math.random () * 256;
+       double Green4 = Math.random () * 256;
+       double Blue4 = Math.random () * 256;
          
          int R4 = (int) Red4;
          int G4 = (int) Green4;
@@ -114,9 +112,9 @@ public class GraphicsLab01v110Chivallati extends Applet
 		// DRAW INSCRIBED/CIRCUMSCRIBED TRIANGLE
       
          // Color Variable
-         double Red5 = (double) Math.random() * 256;
-         double Green5 = (double) Math.random() * 256;
-         double Blue5 = (double) Math.random() * 256;
+       double Red5 = Math.random () * 256;
+       double Green5 = Math.random () * 256;
+       double Blue5 = Math.random () * 256;
          
          int R5 = (int) Red5;
          int G5 = (int) Green5;
@@ -131,9 +129,9 @@ public class GraphicsLab01v110Chivallati extends Applet
             
       
          // Color Variable
-         double Red6 = (double) Math.random() * 256;
-         double Green6 = (double) Math.random() * 256;
-         double Blue6 = (double) Math.random() * 256;
+       double Red6 = Math.random () * 256;
+       double Green6 = Math.random () * 256;
+       double Blue6 = Math.random () * 256;
          
          int R6 = (int) Red6;
          int G6 = (int) Green6;
@@ -149,9 +147,9 @@ public class GraphicsLab01v110Chivallati extends Applet
       		g.drawLine( 375 , 300 ,425 , 170);
             
          // Color Variable
-         double Red7 = (double) Math.random() * 256;
-         double Green7 = (double) Math.random() * 256;
-         double Blue7 = (double) Math.random() * 256;
+       double Red7 = Math.random () * 256;
+       double Green7 = Math.random () * 256;
+       double Blue7 = Math.random () * 256;
          
          int R7 = (int) Red7;
          int G7 = (int) Green7;
@@ -205,9 +203,9 @@ public class GraphicsLab01v110Chivallati extends Applet
 		// DRAW PACMEN FLOWER
       
          // Color Variable
-         double Red8 = (double) Math.random() * 256;
-         double Green8 = (double) Math.random() * 256;
-         double Blue8 = (double) Math.random() * 256;
+       double Red8 = Math.random () * 256;
+       double Green8 = Math.random () * 256;
+       double Blue8 = Math.random () * 256;
          
          int R8 = (int) Red8;
          int G8 = (int) Green8;
@@ -221,9 +219,9 @@ public class GraphicsLab01v110Chivallati extends Applet
          
          
          // Color Variable
-         double Red9 = (double) Math.random() * 256;
-         double Green9 = (double) Math.random() * 256;
-         double Blue9 = (double) Math.random() * 256;
+       double Red9 = Math.random () * 256;
+       double Green9 = Math.random () * 256;
+       double Blue9 = Math.random () * 256;
          
          int R9 = (int) Red9;
          int G9 = (int) Green9;
@@ -237,9 +235,9 @@ public class GraphicsLab01v110Chivallati extends Applet
          
          
          // Color Variable
-         double Red10 = (double) Math.random() * 256;
-         double Green10 = (double) Math.random() * 256;
-         double Blue10 = (double) Math.random() * 256;
+       double Red10 = Math.random () * 256;
+       double Green10 = Math.random () * 256;
+       double Blue10 = Math.random () * 256;
          
          int R10 = (int) Red10;
          int G10 = (int) Green10;
@@ -253,9 +251,9 @@ public class GraphicsLab01v110Chivallati extends Applet
          
          
          // Color Variable
-         double Red11 = (double) Math.random() * 256;
-         double Green11 = (double) Math.random() * 256;
-         double Blue11 = (double) Math.random() * 256;
+       double Red11 = Math.random () * 256;
+       double Green11 = Math.random () * 256;
+       double Blue11 = Math.random () * 256;
          
          int R11 = (int) Red11;
          int G11 = (int) Green11;

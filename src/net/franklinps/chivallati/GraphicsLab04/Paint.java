@@ -1,7 +1,7 @@
-package net.franklinps.GraphicsLab04;
-import java.awt.*;
-import java.applet.*;
+package net.franklinps.chivallati.GraphicsLab04;
 
+import java.applet.Applet;
+import java.awt.*;
 
 public class Paint extends Applet
 {

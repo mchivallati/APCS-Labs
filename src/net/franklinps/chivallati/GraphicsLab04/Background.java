@@ -1,7 +1,6 @@
-package net.franklinps.GraphicsLab04;
+package net.franklinps.chivallati.GraphicsLab04;
 import java.awt.*;
 import java.applet.*;
-
 
 public class Background extends Applet
 {
