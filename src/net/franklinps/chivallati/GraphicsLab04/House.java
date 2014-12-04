@@ -1,9 +1,8 @@
-package net.franklinps.chivallati.GraphicsLab04;
-
-import net.franklinps.chivallati.Util;
-
 import java.awt.*;
 import java.applet.*;
+package net.franklinps.chivallati.GraphicsLab04;
+
+
 
 public class House extends Applet
 {
@@ -43,8 +42,8 @@ public class House extends Applet
 	{
 		
 		g.setColor( new Color ( 211, 107, 71 ) );
-
-		g.fillPolygon ( Util.tri ( 100, 250, 250, 150, 400, 250 ) );
+		
+		g.fillPolygon( Utility.tri( 100 , 250 , 250 , 150 , 400 , 250 ) );
 		
 	}
 	

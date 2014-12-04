@@ -1,5 +1,6 @@
 package net.franklinps.chivallati.GraphicsLab03;// GraphicsLab03st.java
 // Student Version
+package net.franklinps.chivallati.GraphicsLab04;
 
 
 import java.awt.*;
