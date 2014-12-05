@@ -50,6 +50,21 @@ public class Rational
 
     }
 
+    private static void getGCF ( int n1, int n2 )
+    {
+        int rem = 0;
+        do {
+            rem = n1 % n2;
+            if ( rem == 0 ) {
+                gcf = n2;
+            } else {
+                n1 = n2;
+                n2 = rem;
+            }
+        }
+        while ( rem != 0 );
+    }
+
     public void displayData()
     {
         System.out.println();
@@ -57,22 +72,5 @@ public class Rational
         System.out.println();
         System.out.println("and reduces to " + getReduced());
         System.out.println();
-    }
-
-    private static void getGCF(int n1,int n2)
-    {
-        int rem = 0;
-        do
-        {
-            rem = n1 % n2;
-            if (rem == 0)
-                gcf = n2;
-            else
-            {
-                n1 = n2;
-                n2 = rem;
-            }
-        }
-        while (rem != 0);
     }
 }
