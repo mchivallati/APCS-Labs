@@ -1,9 +1,11 @@
 package net.franklinps.chivallati.Tests;
 
+import net.franklinps.chivallati.Util;
+
+import java.util.Scanner;
+
 /**
  * Created by CompSci-04 on 12/5/2014.
- * <p/>
- * <p/>
  * ⊂_ヽ I'M
  * 　 ＼＼ ＿
  * 　　 ＼(　•_•) F
@@ -40,9 +42,26 @@ public class Name
 	public static void main ( String[] args )
 	{
 
-		Name n = new Name ( "Matthew", 'E', "Chivallati" );
+		Scanner input = new Scanner ( System.in );
 
-		System.out.println ( toString ( n ) );
+		System.out.print ( "Enter your first name:       " );
+		String firstName = input.nextLine ();
+
+		Util.skip ( 1 );
+
+		System.out.print ( "Enter your middle initial:   " );
+		char middleInitial = input.nextLine ().charAt ( 0 );
+
+		Util.skip ( 1 );
+
+		System.out.print ( "Enter your Last name:        " );
+		String lastName = input.nextLine ();
+
+		Name n = new Name ( firstName, middleInitial, lastName );
+
+		Util.skip ( 2 );
+
+		System.out.println ( "Your name is " + toString ( n ) );
 
 	}
 
