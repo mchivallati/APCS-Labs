@@ -1,6 +1,5 @@
 package net.franklinps.chivallati.GraphicsLab02;// GraphicsLab02Chivallati.java
 // This is the student, starting version of the GraphicsLab02 assignment.
-package net.franklinps.chivallati.GraphicsLab04;
 
 import java.awt.*;
 import java.applet.*;

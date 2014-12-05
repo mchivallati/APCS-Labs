@@ -2,7 +2,6 @@ package net.franklinps.chivallati.GraphicsLab01;// Matthew Chivallati
 // GraphicsLab01st.java
 // The AWT Graphics Program
 // This is the student, starting version of Graphics Lab 01.
-package net.franklinps.chivallati.GraphicsLab04;
 
 import java.awt.*;
 import java.applet.*;
