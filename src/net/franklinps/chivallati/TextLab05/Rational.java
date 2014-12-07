@@ -13,7 +13,7 @@ public class Rational
 
     }
 
-   /* public static int getDen()
+   public static int getDen()
     {
 
         return den;
@@ -25,7 +25,7 @@ public class Rational
 
         return num;
 
-    }*/
+    }
 
     public static String getOriginal()
     {
