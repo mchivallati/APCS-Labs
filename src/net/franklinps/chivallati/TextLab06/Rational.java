@@ -5,7 +5,7 @@ public class Rational
 
 	private int firstNum, firstDen, gcf;
 
-	public Rational ( int n, int d )
+	public Rational( int n, int d )
 	{
 
 		firstNum = n;
@@ -13,7 +13,7 @@ public class Rational
 
 	}
 
-	public Rational ()
+	public Rational()
 	{
 
 		firstNum = 0;
@@ -21,51 +21,41 @@ public class Rational
 
 	}
 
-	public int getDen ()
+	public int getDen() { return firstDen; }
+
+	public int getNum() { return firstNum; }
+
+	public String getOriginal()
 	{
 
-		return firstDen;
+		return String.valueOf( firstNum ) + "/" + String.valueOf( firstDen );
 
 	}
 
-	public int getNum ()
-	{
-
-		return firstNum;
-
-	}
-
-	public String getOriginal ()
-	{
-
-		return String.valueOf ( firstNum ) + "/" + String.valueOf ( firstDen );
-
-	}
-
-	public double getDecimal ()
+	public double getDecimal()
 	{
 
 		return (double) firstNum / firstDen;
 
 	}
 
-	public String getReduced ()
+	public String getReduced()
 	{
 
-		getGCF ( firstNum, firstDen );
+		getGCF( firstNum, firstDen );
 
-		return String.valueOf ( firstNum / gcf ) + "/" + String.valueOf ( firstDen / gcf );
+		return String.valueOf( firstNum / gcf ) + "/" + String.valueOf( firstDen / gcf );
 
 	}
 
-	public void multiply ( Rational r1, Rational r2 )
+	public void multiply( Rational r1, Rational r2 )
 	{
 		this.firstNum = r1.firstNum * r2.firstNum;
-		this.firstDen = r1.getDen () * r2.firstDen;
+		this.firstDen = r1.getDen() * r2.firstDen;
 
 	}
 
-	public void divide ( Rational r1, Rational r2 )
+	public void divide( Rational r1, Rational r2 )
 	{
 
 		this.firstNum = r1.firstNum * r2.firstDen;
@@ -73,7 +63,7 @@ public class Rational
 
 	}
 
-	public void add ( Rational r1, Rational r2 )
+	public void add( Rational r1, Rational r2 )
 	{
 
 		this.firstNum = ( r1.firstNum * r2.firstDen ) + ( r2.firstNum * r1.firstDen );
@@ -81,7 +71,7 @@ public class Rational
 
 	}
 
-	public void subtract ( Rational r1, Rational r2 )
+	public void subtract( Rational r1, Rational r2 )
 	{
 
 		this.firstNum = ( r1.firstNum * r2.firstDen ) - ( r2.firstNum * r1.firstDen );
@@ -89,7 +79,7 @@ public class Rational
 
 	}
 
-	private void getGCF ( int n1, int n2 )
+	private void getGCF( int n1, int n2 )
 	{
 		int rem;
 		do {
@@ -104,12 +94,12 @@ public class Rational
 		while ( rem != 0 );
 	}
 
-	public void displayData ()
+	public void displayData()
 	{
-		System.out.println ();
-		System.out.println ( getOriginal () + " equals " + getDecimal () );
-		System.out.println ();
-		System.out.println ( "and reduces to " + getReduced () );
-		System.out.println ();
+		System.out.println();
+		System.out.println( getOriginal() + " equals " + getDecimal() );
+		System.out.println();
+		System.out.println( "and reduces to " + getReduced() );
+		System.out.println();
 	}
 }
