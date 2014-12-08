@@ -2,8 +2,6 @@ package net.franklinps.chivallati.TextLab06;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
-
 /*
 
 ⊂_ヽ I'M
@@ -34,9 +32,9 @@ public class TextLab06v100Chivallati
 	{
 		enterData ();
 
-		Rational r1 = new Rational ( num1, den1 );
-		Rational r2 = new Rational ( num2, den2 );
-		Rational r3 = new Rational ();
+		Rational r1 = new Rational( num1, den1 );
+		Rational r2 = new Rational( num2, den2 );
+		Rational r3 = new Rational();
 
 		r3.multiply ( r1, r2 );
 		System.out.println ( "\n\n" + r1.getOriginal () + " * " + r2.getOriginal () + "  =  " + r3.getReduced () );

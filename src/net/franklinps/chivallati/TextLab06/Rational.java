@@ -3,7 +3,7 @@ package net.franklinps.chivallati.TextLab06;
 public class Rational
 {
 
-	private int firstNum, firstDen, reducedNum, reducedDen, gcf;
+	private int firstNum, firstDen, gcf;
 
 	public Rational ( int n, int d )
 	{
